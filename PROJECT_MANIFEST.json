@@ -1,0 +1,23 @@
+{
+  "project": "ExamSphere \u2013 Online Examination System",
+  "generated": "2026-11-10",
+  "files": [
+    ".gitignore",
+    "HANDOFF.md",
+    "README.md",
+    "REQUIREMENTS.md",
+    "database/examsphere.sql",
+    "lib/README.txt",
+    "src/main/java/com/examsphere/Database.java",
+    "src/main/java/com/examsphere/Exam.java",
+    "src/main/java/com/examsphere/ExamService.java",
+    "src/main/java/com/examsphere/ExamSphereServer.java",
+    "src/main/java/com/examsphere/HttpUtil.java",
+    "src/main/java/com/examsphere/PasswordUtil.java",
+    "src/main/java/com/examsphere/Question.java",
+    "src/main/java/com/examsphere/User.java",
+    "web/app.js",
+    "web/index.html",
+    "web/styles.css"
+  ]
+}

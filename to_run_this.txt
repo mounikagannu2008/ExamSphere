@@ -1,0 +1,36 @@
+After successfully importing the database, open Command Prompt in:
+
+```
+C:\Users\DELL\ExamSphere
+```
+
+Run these commands in order:
+
+**1. Set the port (Jenkins uses 8080):**
+
+```
+set EXAMSPHERE_PORT=8081
+```
+
+**2. Compile the Java files:**
+
+```
+javac --add-modules jdk.httpserver -cp "lib\mysql-connector-j-26.10.0.jar" -d out src\main\java\com\examsphere\*.java
+```
+
+**3. Start ExamSphere:**
+
+```
+java --add-modules jdk.httpserver -cp "out;lib\mysql-connector-j-26.10.0.jar" com.examsphere.ExamSphereServer
+```
+
+**4. Open the website:**
+
+[http://localhost:8081](http://localhost:8081?utm_source=chatgpt.com)
+
+Admin login:
+
+- Email: `admin@examsphere.local`
+- Password: `admin123`
+
+Keep Command Prompt open while using ExamSphere.

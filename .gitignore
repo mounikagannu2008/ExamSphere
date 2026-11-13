@@ -1,0 +1,7 @@
+out/
+lib/*.jar
+*.class
+.idea/
+.vscode/
+.DS_Store
+.to_run_this
